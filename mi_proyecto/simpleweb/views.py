@@ -64,3 +64,6 @@ def categoryupdate(request):
         return redirect(categorylisting) 
     else:
         return redirect(categorylisting)
+    
+def inserted_view(request):
+    return HttpResponse("Vista insertada correctamente.")
